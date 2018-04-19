@@ -5,6 +5,7 @@ public class KhachSan {
     private String DiaChi;
     private float GiaTien;
     private int Image;
+    private int rating;
 
     public KhachSan(String tenkhachsan, String diaChi, float giaTien,int image) {
         this.tenkhachsan = tenkhachsan;
