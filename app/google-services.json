@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "453096847939",
+    "firebase_url": "https://khachsanseach.firebaseio.com",
+    "project_id": "khachsanseach",
+    "storage_bucket": "khachsanseach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453096847939:android:a48576db3bd72f2e",
+        "android_client_info": {
+          "package_name": "com.example.thanghoang.seachhotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453096847939-e3mmsfvnvpedrt5q4qgsa52t687pe17f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVGYQpxRK-_AUkQXQxgojLW3FfiWNPbxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
