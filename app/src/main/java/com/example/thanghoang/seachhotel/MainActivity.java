@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 HashMap t = (HashMap) dataSnapshot.getValue();
                 Log.d("dfdf",t.toString());
-                mKhachSanList.add(new KhachSan(t.get("TenKhachSan").toString(),t.get("DiaChi").toString(),Float.parseFloat(t.get("Gia").toString()),Integer.parseInt(t.get("Anh").toString())));
+                mKhachSanList.add(new KhachSan(t.get("TenKhachSan").toString(),t.get("DiaChi").toString(),Float.parseFloat(t.get("Gia").toString())));
                 adapter.notifyDataSetChanged();
             }
 

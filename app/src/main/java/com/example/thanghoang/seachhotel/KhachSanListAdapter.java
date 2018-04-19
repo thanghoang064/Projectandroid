@@ -47,11 +47,8 @@ public class KhachSanListAdapter extends BaseAdapter {
         tvTenKhachSan.setText(mKhachSanList.get(i).getTenkhachsan());
         tvDiaChi.setText(String.valueOf(mKhachSanList.get(i).getDiaChi()));
         tvGiaTien.setText(String.valueOf(mKhachSanList.get(i).getGiaTien()));
-        Imview.setImageResource(mKhachSanList.get(i).getImage());
+        Imview.setImageResource(R.drawable.khachsan);
         Log.d("nana",String.valueOf(R.drawable.khachsan));
-
-
-
         rbDanhGia.setNumStars(5);
         rbDanhGia.setRating(3);
         //v.setTag(mChuyenXeList.get(i).get);

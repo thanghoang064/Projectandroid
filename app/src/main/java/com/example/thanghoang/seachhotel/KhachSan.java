@@ -4,14 +4,13 @@ public class KhachSan {
      private String tenkhachsan;
     private String DiaChi;
     private float GiaTien;
-    private int Image;
+
     private int rating;
 
-    public KhachSan(String tenkhachsan, String diaChi, float giaTien,int image) {
+    public KhachSan(String tenkhachsan, String diaChi, float giaTien) {
         this.tenkhachsan = tenkhachsan;
         DiaChi = diaChi;
         GiaTien = giaTien;
-        Image = image;
     }
 
     public KhachSan() {
@@ -41,11 +40,5 @@ public class KhachSan {
         GiaTien = giaTien;
     }
 
-    public int getImage() {
-        return Image;
-    }
 
-    public void setImage(int image) {
-        Image = image;
-    }
 }
